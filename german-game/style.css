@@ -1,0 +1,228 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(120deg, #f0f4ff, #ffffff);
+  color: #333;
+}
+
+/* Tabs */
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  margin: 5px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #4b9cd3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.tab-button:hover {
+  background: #3179b4;
+}
+
+/* Verb Type Buttons */
+.verb-type {
+  margin: 12px;
+  padding: 18px;
+  border: none;
+  display: inline-block;
+  width: 220px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.verb-type:hover {
+  background: #f1f9ff;
+  transform: translateY(-3px);
+}
+
+/* Input Fields */
+input[type="text"] {
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 60%;
+  max-width: 300px;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4b9cd3;
+  outline: none;
+}
+
+/* Correct/Incorrect Input Styling */
+input.correct {
+  border-color: #28a745 !important;
+  background-color: #eafaf1;
+}
+
+input.incorrect {
+  border-color: #dc3545 !important;
+  background-color: #fcebea;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #218838;
+}
+
+/* Back Button Variant */
+button.back {
+  background: #6c757d;
+}
+
+button.back:hover {
+  background: #5a6268;
+}
+
+/* Section Containers */
+#inputsContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Headers */
+h1 {
+  font-size: 36px;
+  color: #2b4d66;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #375a7f;
+  margin-bottom: 20px;
+}
+/* Verb List Table */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 14px 20px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+table th {
+  background-color: #4b9cd3;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #eef6ff;
+}
+select {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  background-color: #f8f9fa;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+select:hover {
+  border-color: #4b9cd3;
+  background-color: #eef6fb;
+}
+
+select:focus {
+  outline: none;
+  border-color: #4b9cd3;
+  box-shadow: 0 0 4px rgba(75, 156, 211, 0.4);
+}
+/* === MODAL POPUP === */
+.modal {
+  display: none; /* Hides it by default */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
+}
+
+.modal-content button:hover {
+  background-color: #218838;
+}
+
+.close-button {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.close-button:hover {
+  color: #000;
+}

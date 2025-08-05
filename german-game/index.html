@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>German Verb Conjugation Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>German Verb Conjugation Game</h1>
+
+  <!-- Tabs for levels -->
+  <div class="tabs">
+    <button class="tab-button" onclick="showLevel('A1')">A1</button>
+    <button class="tab-button" onclick="showLevel('A2')">A2</button>
+    <button class="tab-button" onclick="showLevel('B1')">B1</button>
+    <button class="tab-button" onclick="showLevel('B2')">B2</button>
+    <button class="tab-button" onclick="showLevel('C1')">C1</button>
+    <button class="tab-button" onclick="showLevel('C2')">C2</button>
+  </div>
+
+  <!-- Main content container -->
+  <div id="levelContent">
+    <p>Select a level above to view verb types.</p>
+  </div>
+
+  <!-- 🎉 Custom modal popup for success -->
+  <div id="customModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <h2>🎉 Well Done!</h2>
+      <p>All your answers were correct. Great job!</p>
+      <button onclick="closeModal()">Keep Practicing</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
