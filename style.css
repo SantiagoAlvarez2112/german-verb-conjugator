@@ -1,13 +1,20 @@
+/* === GENERAL LAYOUT === */
 /* General Layout */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 30px;
-  background: linear-gradient(120deg, #f0f4ff, #ffffff);
-  color: #333;
+  color: #f0f0f0;
+
+  /* Futuristic grid background */
+  background-color: #0b0f1a;
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
-/* Tabs */
+/* === TABS === */
 .tabs {
   margin-bottom: 20px;
 }
@@ -17,93 +24,98 @@ body {
   padding: 12px 24px;
   font-size: 16px;
   cursor: pointer;
-  background: #4b9cd3;
-  color: white;
+  background: linear-gradient(90deg, #00c9ff, #92fe9d);
+  color: #0f0f0f;
   border: none;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-  transition: background 0.3s ease;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .tab-button:hover {
-  background: #3179b4;
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #00b4db, #0083b0);
+  color: white;
 }
 
-/* Verb Type Buttons */
+/* === VERB TYPE BUTTONS === */
 .verb-type {
   margin: 12px;
   padding: 18px;
   border: none;
   display: inline-block;
   width: 220px;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  background: #2d2d2d;
+  color: #00fff7;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.2);
   cursor: pointer;
-  transition: transform 0.2s, background 0.3s;
+  transition: transform 0.2s, box-shadow 0.3s;
 }
 
 .verb-type:hover {
-  background: #f1f9ff;
-  transform: translateY(-3px);
+  background: #202020;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 255, 255, 0.3);
 }
 
-/* Input Fields */
+/* === INPUT FIELDS === */
 input[type="text"] {
   padding: 10px;
   margin: 8px 0;
   font-size: 16px;
-  border: 2px solid #ccc;
-  border-radius: 6px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
   width: 60%;
   max-width: 300px;
+  background-color: #2f2f2f;
+  color: #fff;
   transition: border-color 0.2s ease;
 }
 
 input[type="text"]:focus {
-  border-color: #4b9cd3;
+  border-color: #00b4db;
   outline: none;
 }
 
-/* Correct/Incorrect Input Styling */
 input.correct {
   border-color: #28a745 !important;
-  background-color: #eafaf1;
+  background-color: #154734;
 }
 
 input.incorrect {
   border-color: #dc3545 !important;
-  background-color: #fcebea;
+  background-color: #5e1c1c;
 }
 
-/* Buttons */
+/* === BUTTONS === */
 button {
   margin: 10px;
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
-  background: #28a745;
+  background: linear-gradient(90deg, #00f260, #0575e6);
   color: white;
   border: none;
-  border-radius: 6px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-  transition: background 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.2s;
 }
 
 button:hover {
-  background: #218838;
+  background: linear-gradient(90deg, #43e97b, #38f9d7);
+  transform: translateY(-2px);
 }
 
-/* Back Button Variant */
 button.back {
-  background: #6c757d;
+  background: #888;
 }
 
 button.back:hover {
-  background: #5a6268;
+  background: #666;
 }
 
-/* Section Containers */
+/* === SECTION CONTAINERS === */
 #inputsContainer {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -113,72 +125,79 @@ button.back:hover {
   margin-top: 20px;
   font-weight: bold;
   font-size: 18px;
+  color: #00e6ac;
 }
 
-/* Headers */
+/* === HEADERS === */
 h1 {
   font-size: 36px;
-  color: #2b4d66;
+  color: #66fcf1;
   margin-bottom: 30px;
 }
 
 h2 {
-  color: #375a7f;
+  color: #45a29e;
   margin-bottom: 20px;
 }
-/* Verb List Table */
+
+/* === TABLE STYLING === */
 table {
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   border-collapse: collapse;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: #1f2833;
+  border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  color: #ffffff;
 }
 
 table th, table td {
   padding: 14px 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   font-size: 16px;
 }
 
 table th {
-  background-color: #4b9cd3;
-  color: white;
+  background-color: #0b0c10;
+  color: #66fcf1;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 table tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #2c3e50;
 }
 
 table tr:hover {
-  background-color: #eef6ff;
+  background-color: #3e4e5e;
 }
+
+/* === DROPDOWN === */
 select {
   padding: 10px;
   font-size: 15px;
   border-radius: 6px;
-  border: 2px solid #ccc;
-  background-color: #f8f9fa;
+  border: 2px solid #00bcd4;
+  background-color: #2c3e50;
+  color: #fff;
   transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 select:hover {
-  border-color: #4b9cd3;
-  background-color: #eef6fb;
+  border-color: #66fcf1;
+  background-color: #34495e;
 }
 
 select:focus {
   outline: none;
-  border-color: #4b9cd3;
-  box-shadow: 0 0 4px rgba(75, 156, 211, 0.4);
+  border-color: #66fcf1;
+  box-shadow: 0 0 6px rgba(102, 252, 241, 0.4);
 }
+
 /* === MODAL POPUP === */
 .modal {
-  display: none; /* Hides it by default */
+  display: none;
   position: fixed;
   z-index: 999;
   left: 0;
@@ -186,33 +205,34 @@ select:focus {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: #1f2833;
   margin: 15% auto;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 80%;
   max-width: 400px;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  color: #66fcf1;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
 
 .modal-content h2 {
-  color: #28a745;
+  color: #45df99;
   margin-bottom: 10px;
 }
 
 .modal-content button {
   margin-top: 15px;
-  background-color: #28a745;
-  color: white;
+  background-color: #00f260;
+  color: black;
 }
 
 .modal-content button:hover {
-  background-color: #218838;
+  background-color: #2af598;
 }
 
 .close-button {
@@ -224,5 +244,173 @@ select:focus {
 }
 
 .close-button:hover {
-  color: #000;
+  color: #fff;
+}
+
+/* === THEME TOGGLE === */ 
+.toggle-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toggle-slider {
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-slider::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+
+input[type="checkbox"]:checked + .toggle-slider {
+  background-color: #4b9cd3;
+}
+
+input[type="checkbox"]:checked + .toggle-slider::before {
+  transform: translateX(25px);
+}
+
+.toggle-label {
+  font-size: 14px;
+  color: inherit;
+}
+
+
+/* === LIGHT THEME: white + neon contrast === */
+body.light {
+  background-color: #ffffff;
+  color: #0d1a3d;
+  background-image: 
+    linear-gradient(rgba(75, 156, 211, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(75, 156, 211, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+body.light h1, 
+body.light h2 {
+  color: #0d1a3d;
+}
+
+body.light table {
+  background-color: #ffffff;
+  color: #0d1a3d;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(85, 161, 211, 0.15);
+}
+
+body.light table th {
+  background-color: #5d8dd6;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+body.light table tr:nth-child(even) {
+  background-color: #f0f6ff;
+}
+
+body.light input[type="text"],
+body.light select {
+  background-color: #fdfdfd;
+  color: #0d1a3d;
+  border: 1px solid #b5c9e1;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+body.light button {
+  background: linear-gradient(135deg, #6ca9e0, #4b9cd3);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+body.light button:hover {
+  background: linear-gradient(135deg, #5a8cc7, #3a85c0);
+}
+
+body.light .verb-type {
+  background-color: #4b9cd3; /* Same as A1/A2 buttons */
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(75, 156, 211, 0.2);
+}
+
+body.light .verb-type:hover {
+  background-color: #3179b4;
+  transform: translateY(-3px);
+}
+
+body.light table tr:hover {
+  background-color: #5094dd; /* soft light blue, fits the neon aesthetic */
+}
+
+/* === DARK THEME === */
+body.dark {
+  background-color: #0b0f1a;
+  color: #f0f0f0;
+}
+
+body.dark h1,
+body.dark h2 {
+  color: #ffffff;
+}
+
+body.dark table {
+  background-color: #1a1e2a;
+  color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+body.dark table th {
+  background-color: #4b9cd3;
+  color: #ffffff;
+}
+
+body.dark table tr:nth-child(even) {
+  background-color: #2a2e3d;
+}
+
+body.dark table tr:hover {
+  background-color: #36415c; /* or any hover color you like */
+}
+
+body.dark input[type="text"],
+body.dark select {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark button {
+  background-color: #4b9cd3;
+  color: white;
+}
+
+body.dark button:hover {
+  background-color: #3179b4;
+}
+
+body.dark .verb-type {
+  background-color: #1a1e2a;
+  color: #f0f0f0;
+}
+
+body.dark .verb-type:hover {
+  background-color: #2a2e3d;
+  transform: translateY(-3px);
 }

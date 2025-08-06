@@ -1,10 +1,1301 @@
 {
   "A1": {  
     "regular": {
+      "zeigen": {
+        "translation": "to show / to demonstrate / to point at",
+        "preposition": "auf + Akk. (when used as to point at)",
+        "partizip1": "zeigend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "zeige",
+            "du": "zeigst",
+            "er/sie/es": "zeigt",
+            "wir": "zeigen",
+            "ihr": "zeigt",
+            "sie/Sie": "zeigen"
+          },
+          "Perfekt": {
+            "ich": "habe gezeigt",
+            "du": "hast gezeigt",
+            "er/sie/es": "hat gezeigt",
+            "wir": "haben gezeigt",
+            "ihr": "habt gezeigt",
+            "sie/Sie": "haben gezeigt"
+          },
+          "Präteritum": {
+            "ich": "zeigte",
+            "du": "zeigtest",
+            "er/sie/es": "zeigte",
+            "wir": "zeigten",
+            "ihr": "zeigtet",
+            "sie/Sie": "zeigten"
+          },
+          "Futur I": {
+            "ich": "werde zeigen",
+            "du": "wirst zeigen",
+            "er/sie/es": "wird zeigen",
+            "wir": "werden zeigen",
+            "ihr": "werdet zeigen",
+            "sie/Sie": "werden zeigen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte gezeigt",
+            "du": "hattest gezeigt",
+            "er/sie/es": "hatte gezeigt",
+            "wir": "hatten gezeigt",
+            "ihr": "hattet gezeigt",
+            "sie/Sie": "hatten gezeigt"
+          },
+          "Konjunktiv II": {
+            "ich": "würde zeigen",
+            "du": "würdest zeigen",
+            "er/sie/es": "würde zeigen",
+            "wir": "würden zeigen",
+            "ihr": "würdet zeigen",
+            "sie/Sie": "würden zeigen"
+          },
+          "Passiv": {
+            "ich": "werde gezeigt",
+            "du": "wirst gezeigt",
+            "er/sie/es": "wird gezeigt",
+            "wir": "werden gezeigt",
+            "ihr": "werdet gezeigt",
+            "sie/Sie": "werden gezeigt"
+          },
+          "Konjunktiv I": {
+            "ich": "zeige",
+            "du": "zeigest",
+            "er/sie/es": "zeige",
+            "wir": "zeigen",
+            "ihr": "zeiget",
+            "sie/Sie": "zeigen"
+          },
+          "Futur II": {
+            "ich": "werde gezeigt haben",
+            "du": "wirst gezeigt haben",
+            "er/sie/es": "wird gezeigt haben",
+            "wir": "werden gezeigt haben",
+            "ihr": "werdet gezeigt haben",
+            "sie/Sie": "werden gezeigt haben"
+          },
+          "Imperativ": {
+            "du": "zeige",
+            "wir": "zeigen wir",
+            "ihr": "zeigt",
+            "Sie": "zeigen Sie"
+          }
+        }
+      },
+      "zahlen": {
+        "translation": "to pay",
+        "preposition": "für + Akk.",
+        "partizip1": "zahlend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "zahle",
+            "du": "zahlst",
+            "er/sie/es": "zahlt",
+            "wir": "zahlen",
+            "ihr": "zahlt",
+            "sie/Sie": "zahlen"
+          },
+          "Perfekt": {
+            "ich": "habe gezahlt",
+            "du": "hast gezahlt",
+            "er/sie/es": "hat gezahlt",
+            "wir": "haben gezahlt",
+            "ihr": "habt gezahlt",
+            "sie/Sie": "haben gezahlt"
+          },
+          "Präteritum": {
+            "ich": "zahlte",
+            "du": "zahltest",
+            "er/sie/es": "zahlte",
+            "wir": "zahlten",
+            "ihr": "zahltet",
+            "sie/Sie": "zahlten"
+          },
+          "Futur I": {
+            "ich": "werde zahlen",
+            "du": "wirst zahlen",
+            "er/sie/es": "wird zahlen",
+            "wir": "werden zahlen",
+            "ihr": "werdet zahlen",
+            "sie/Sie": "werden zahlen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte gezahlt",
+            "du": "hattest gezahlt",
+            "er/sie/es": "hatte gezahlt",
+            "wir": "hatten gezahlt",
+            "ihr": "hattet gezahlt",
+            "sie/Sie": "hatten gezahlt"
+          },
+          "Konjunktiv II": {
+            "ich": "würde zahlen",
+            "du": "würdest zahlen",
+            "er/sie/es": "würde zahlen",
+            "wir": "würden zahlen",
+            "ihr": "würdet zahlen",
+            "sie/Sie": "würden zahlen"
+          },
+          "Passiv": {
+            "ich": "werde gezahlt",
+            "du": "wirst gezahlt",
+            "er/sie/es": "wird gezahlt",
+            "wir": "werden gezahlt",
+            "ihr": "werdet gezahlt",
+            "sie/Sie": "werden gezahlt"
+          },
+          "Konjunktiv I": {
+            "ich": "zahle",
+            "du": "zahlest",
+            "er/sie/es": "zahle",
+            "wir": "zahlen",
+            "ihr": "zahlet",
+            "sie/Sie": "zahlen"
+          },
+          "Futur II": {
+            "ich": "werde gezahlt haben",
+            "du": "wirst gezahlt haben",
+            "er/sie/es": "wird gezahlt haben",
+            "wir": "werden gezahlt haben",
+            "ihr": "werdet gezahlt haben",
+            "sie/Sie": "werden gezahlt haben"
+          },
+          "Imperativ": {
+            "du": "zahle",
+            "wir": "zahlen wir",
+            "ihr": "zahlt",
+            "Sie": "zahlen Sie"
+          }
+        }
+      },
+      "wohnen": {
+        "translation": "to live / to reside",
+        "preposition": "in + Dat.",
+        "partizip1": "wohnend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "wohne",
+            "du": "wohnst",
+            "er/sie/es": "wohnt",
+            "wir": "wohnen",
+            "ihr": "wohnt",
+            "sie/Sie": "wohnen"
+          },
+          "Perfekt": {
+            "ich": "habe gewohnt",
+            "du": "hast gewohnt",
+            "er/sie/es": "hat gewohnt",
+            "wir": "haben gewohnt",
+            "ihr": "habt gewohnt",
+            "sie/Sie": "haben gewohnt"
+          },
+          "Präteritum": {
+            "ich": "wohnte",
+            "du": "wohntest",
+            "er/sie/es": "wohnte",
+            "wir": "wohnten",
+            "ihr": "wohntet",
+            "sie/Sie": "wohnten"
+          },
+          "Futur I": {
+            "ich": "werde wohnen",
+            "du": "wirst wohnen",
+            "er/sie/es": "wird wohnen",
+            "wir": "werden wohnen",
+            "ihr": "werdet wohnen",
+            "sie/Sie": "werden wohnen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte gewohnt",
+            "du": "hattest gewohnt",
+            "er/sie/es": "hatte gewohnt",
+            "wir": "hatten gewohnt",
+            "ihr": "hattet gewohnt",
+            "sie/Sie": "hatten gewohnt"
+          },
+          "Konjunktiv II": {
+            "ich": "würde wohnen",
+            "du": "würdest wohnen",
+            "er/sie/es": "würde wohnen",
+            "wir": "würden wohnen",
+            "ihr": "würdet wohnen",
+            "sie/Sie": "würden wohnen"
+          },
+          "Passiv": {
+            "ich": "werde gewohnt",
+            "du": "wirst gewohnt",
+            "er/sie/es": "wird gewohnt",
+            "wir": "werden gewohnt",
+            "ihr": "werdet gewohnt",
+            "sie/Sie": "werden gewohnt"
+          },
+          "Konjunktiv I": {
+            "ich": "wohne",
+            "du": "wohnest",
+            "er/sie/es": "wohne",
+            "wir": "wohnen",
+            "ihr": "wohnet",
+            "sie/Sie": "wohnen"
+          },
+          "Futur II": {
+            "ich": "werde gewohnt haben",
+            "du": "wirst gewohnt haben",
+            "er/sie/es": "wird gewohnt haben",
+            "wir": "werden gewohnt haben",
+            "ihr": "werdet gewohnt haben",
+            "sie/Sie": "werden gewohnt haben"
+          },
+          "Imperativ": {
+            "du": "wohne",
+            "wir": "wohnen wir",
+            "ihr": "wohnt",
+            "Sie": "wohnen Sie"
+          }
+        }
+      },
+      "wiederholen": {
+        "translation": "to repeat",
+        "preposition": null,
+        "partizip1": "wiederholend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "wiederhole",
+            "du": "wiederholst",
+            "er/sie/es": "wiederholt",
+            "wir": "wiederholen",
+            "ihr": "wiederholt",
+            "sie/Sie": "wiederholen"
+          },
+          "Perfekt": {
+            "ich": "habe wiederholt",
+            "du": "hast wiederholt",
+            "er/sie/es": "hat wiederholt",
+            "wir": "haben wiederholt",
+            "ihr": "habt wiederholt",
+            "sie/Sie": "haben wiederholt"
+          },
+          "Präteritum": {
+            "ich": "wiederholte",
+            "du": "wiederholtest",
+            "er/sie/es": "wiederholte",
+            "wir": "wiederholten",
+            "ihr": "wiederholtet",
+            "sie/Sie": "wiederholten"
+          },
+          "Futur I": {
+            "ich": "werde wiederholen",
+            "du": "wirst wiederholen",
+            "er/sie/es": "wird wiederholen",
+            "wir": "werden wiederholen",
+            "ihr": "werdet wiederholen",
+            "sie/Sie": "werden wiederholen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte wiederholt",
+            "du": "hattest wiederholt",
+            "er/sie/es": "hatte wiederholt",
+            "wir": "hatten wiederholt",
+            "ihr": "hattet wiederholt",
+            "sie/Sie": "hatten wiederholt"
+          },
+          "Konjunktiv II": {
+            "ich": "würde wiederholen",
+            "du": "würdest wiederholen",
+            "er/sie/es": "würde wiederholen",
+            "wir": "würden wiederholen",
+            "ihr": "würdet wiederholen",
+            "sie/Sie": "würden wiederholen"
+          },
+          "Passiv": {
+            "ich": "werde wiederholt",
+            "du": "wirst wiederholt",
+            "er/sie/es": "wird wiederholt",
+            "wir": "werden wiederholt",
+            "ihr": "werdet wiederholt",
+            "sie/Sie": "werden wiederholt"
+          },
+          "Konjunktiv I": {
+            "ich": "wiederhole",
+            "du": "wiederholest",
+            "er/sie/es": "wiederhole",
+            "wir": "wiederholen",
+            "ihr": "wiederholet",
+            "sie/Sie": "wiederholen"
+          },
+          "Futur II": {
+            "ich": "werde wiederholt haben",
+            "du": "wirst wiederholt haben",
+            "er/sie/es": "wird wiederholt haben",
+            "wir": "werden wiederholt haben",
+            "ihr": "werdet wiederholt haben",
+            "sie/Sie": "werden wiederholt haben"
+          },
+          "Imperativ": {
+            "du": "wiederhole",
+            "wir": "wiederholen wir",
+            "ihr": "wiederholt",
+            "Sie": "wiederholen Sie"
+          }
+        }
+      },
+      "wandern": {
+        "translation": "to hike / to wander",
+        "preposition": null,
+        "partizip1": "wandernd",
+        "auxiliary": "sein",
+        "tenses": {
+          "Präsens": {
+            "ich": "wandere",
+            "du": "wanderst",
+            "er/sie/es": "wandert",
+            "wir": "wandern",
+            "ihr": "wandert",
+            "sie/Sie": "wandern"
+          },
+          "Perfekt": {
+            "ich": "bin gewandert",
+            "du": "bist gewandert",
+            "er/sie/es": "ist gewandert",
+            "wir": "sind gewandert",
+            "ihr": "seid gewandert",
+            "sie/Sie": "sind gewandert"
+          },
+          "Präteritum": {
+            "ich": "wanderte",
+            "du": "wandertest",
+            "er/sie/es": "wanderte",
+            "wir": "wanderten",
+            "ihr": "wandertet",
+            "sie/Sie": "wanderten"
+          },
+          "Futur I": {
+            "ich": "werde wandern",
+            "du": "wirst wandern",
+            "er/sie/es": "wird wandern",
+            "wir": "werden wandern",
+            "ihr": "werdet wandern",
+            "sie/Sie": "werden wandern"
+          },
+          "Plusquamperfekt": {
+            "ich": "war gewandert",
+            "du": "warst gewandert",
+            "er/sie/es": "war gewandert",
+            "wir": "waren gewandert",
+            "ihr": "wart gewandert",
+            "sie/Sie": "waren gewandert"
+          },
+          "Konjunktiv II": {
+            "ich": "würde wandern",
+            "du": "würdest wandern",
+            "er/sie/es": "würde wandern",
+            "wir": "würden wandern",
+            "ihr": "würdet wandern",
+            "sie/Sie": "würden wandern"
+          },
+          "Passiv": {
+            "ich": "werde gewandert",
+            "du": "wirst gewandert",
+            "er/sie/es": "wird gewandert",
+            "wir": "werden gewandert",
+            "ihr": "werdet gewandert",
+            "sie/Sie": "werden gewandert"
+          },
+          "Konjunktiv I": {
+            "ich": "wandere",
+            "du": "wanderst",
+            "er/sie/es": "wandere",
+            "wir": "wandern",
+            "ihr": "wandert",
+            "sie/Sie": "wandern"
+          },
+          "Futur II": {
+            "ich": "werde gewandert sein",
+            "du": "wirst gewandert sein",
+            "er/sie/es": "wird gewandert sein",
+            "wir": "werden gewandert sein",
+            "ihr": "werdet gewandert sein",
+            "sie/Sie": "werden gewandert sein"
+          },
+          "Imperativ": {
+            "du": "wandere",
+            "wir": "wandern wir",
+            "ihr": "wandert",
+            "Sie": "wandern Sie"
+          }
+        }
+      },
+      "vermieten": {
+        "translation": "to rent out / to lease",
+        "preposition": "an + Akk. (when specifying to whom)",
+        "partizip1": "vermietend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "vermiete",
+            "du": "vermietest",
+            "er/sie/es": "vermietet",
+            "wir": "vermieten",
+            "ihr": "vermietet",
+            "sie/Sie": "vermieten"
+          },
+          "Perfekt": {
+            "ich": "habe vermietet",
+            "du": "hast vermietet",
+            "er/sie/es": "hat vermietet",
+            "wir": "haben vermietet",
+            "ihr": "habt vermietet",
+            "sie/Sie": "haben vermietet"
+          },
+          "Präteritum": {
+            "ich": "vermietete",
+            "du": "vermietetest",
+            "er/sie/es": "vermietete",
+            "wir": "vermieteten",
+            "ihr": "vermietetet",
+            "sie/Sie": "vermieteten"
+          },
+          "Futur I": {
+            "ich": "werde vermieten",
+            "du": "wirst vermieten",
+            "er/sie/es": "wird vermieten",
+            "wir": "werden vermieten",
+            "ihr": "werdet vermieten",
+            "sie/Sie": "werden vermieten"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte vermietet",
+            "du": "hattest vermietet",
+            "er/sie/es": "hatte vermietet",
+            "wir": "hatten vermietet",
+            "ihr": "hattet vermietet",
+            "sie/Sie": "hatten vermietet"
+          },
+          "Konjunktiv II": {
+            "ich": "würde vermieten",
+            "du": "würdest vermieten",
+            "er/sie/es": "würde vermieten",
+            "wir": "würden vermieten",
+            "ihr": "würdet vermieten",
+            "sie/Sie": "würden vermieten"
+          },
+          "Passiv": {
+            "ich": "werde vermietet",
+            "du": "wirst vermietet",
+            "er/sie/es": "wird vermietet",
+            "wir": "werden vermietet",
+            "ihr": "werdet vermietet",
+            "sie/Sie": "werden vermietet"
+          },
+          "Konjunktiv I": {
+            "ich": "vermiete",
+            "du": "vermietest",
+            "er/sie/es": "vermiete",
+            "wir": "vermieten",
+            "ihr": "vermietet",
+            "sie/Sie": "vermieten"
+          },
+          "Futur II": {
+            "ich": "werde vermietet haben",
+            "du": "wirst vermietet haben",
+            "er/sie/es": "wird vermietet haben",
+            "wir": "werden vermietet haben",
+            "ihr": "werdet vermietet haben",
+            "sie/Sie": "werden vermietet haben"
+          },
+          "Imperativ": {
+            "du": "vermiete",
+            "wir": "vermieten wir",
+            "ihr": "vermietet",
+            "Sie": "vermieten Sie"
+          }
+        }
+      },
+      "verkaufen": {
+        "translation": "to sell",
+        "preposition": "an + Akk. (when specifying to whom)",
+        "partizip1": "verkaufend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "verkaufe",
+            "du": "verkaufst",
+            "er/sie/es": "verkauft",
+            "wir": "verkaufen",
+            "ihr": "verkauft",
+            "sie/Sie": "verkaufen"
+          },
+          "Perfekt": {
+            "ich": "habe verkauft",
+            "du": "hast verkauft",
+            "er/sie/es": "hat verkauft",
+            "wir": "haben verkauft",
+            "ihr": "habt verkauft",
+            "sie/Sie": "haben verkauft"
+          },
+          "Präteritum": {
+            "ich": "verkaufte",
+            "du": "verkauftest",
+            "er/sie/es": "verkaufte",
+            "wir": "verkauften",
+            "ihr": "verkauftet",
+            "sie/Sie": "verkauften"
+          },
+          "Futur I": {
+            "ich": "werde verkaufen",
+            "du": "wirst verkaufen",
+            "er/sie/es": "wird verkaufen",
+            "wir": "werden verkaufen",
+            "ihr": "werdet verkaufen",
+            "sie/Sie": "werden verkaufen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte verkauft",
+            "du": "hattest verkauft",
+            "er/sie/es": "hatte verkauft",
+            "wir": "hatten verkauft",
+            "ihr": "hattet verkauft",
+            "sie/Sie": "hatten verkauft"
+          },
+          "Konjunktiv II": {
+            "ich": "würde verkaufen",
+            "du": "würdest verkaufen",
+            "er/sie/es": "würde verkaufen",
+            "wir": "würden verkaufen",
+            "ihr": "würdet verkaufen",
+            "sie/Sie": "würden verkaufen"
+          },
+          "Passiv": {
+            "ich": "werde verkauft",
+            "du": "wirst verkauft",
+            "er/sie/es": "wird verkauft",
+            "wir": "werden verkauft",
+            "ihr": "werdet verkauft",
+            "sie/Sie": "werden verkauft"
+          },
+          "Konjunktiv I": {
+            "ich": "verkaufe",
+            "du": "verkaufest",
+            "er/sie/es": "verkaufe",
+            "wir": "verkaufen",
+            "ihr": "verkaufet",
+            "sie/Sie": "verkaufen"
+          },
+          "Futur II": {
+            "ich": "werde verkauft haben",
+            "du": "wirst verkauft haben",
+            "er/sie/es": "wird verkauft haben",
+            "wir": "werden verkauft haben",
+            "ihr": "werdet verkauft haben",
+            "sie/Sie": "werden verkauft haben"
+          },
+          "Imperativ": {
+            "du": "verkaufe",
+            "wir": "verkaufen wir",
+            "ihr": "verkauft",
+            "Sie": "verkaufen Sie"
+          }
+        }
+      },
+      "unterschreiben": {
+        "translation": "to sign",
+        "preposition": null,
+        "partizip1": "unterschreibend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "unterschreibe",
+            "du": "unterschreibst",
+            "er/sie/es": "unterschreibt",
+            "wir": "unterschreiben",
+            "ihr": "unterschreibt",
+            "sie/Sie": "unterschreiben"
+          },
+          "Perfekt": {
+            "ich": "habe unterschrieben",
+            "du": "hast unterschrieben",
+            "er/sie/es": "hat unterschrieben",
+            "wir": "haben unterschrieben",
+            "ihr": "habt unterschrieben",
+            "sie/Sie": "haben unterschrieben"
+          },
+          "Präteritum": {
+            "ich": "unterschrieb",
+            "du": "unterschriebst",
+            "er/sie/es": "unterschrieb",
+            "wir": "unterschrieben",
+            "ihr": "unterschriebt",
+            "sie/Sie": "unterschrieben"
+          },
+          "Futur I": {
+            "ich": "werde unterschreiben",
+            "du": "wirst unterschreiben",
+            "er/sie/es": "wird unterschreiben",
+            "wir": "werden unterschreiben",
+            "ihr": "werdet unterschreiben",
+            "sie/Sie": "werden unterschreiben"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte unterschrieben",
+            "du": "hattest unterschrieben",
+            "er/sie/es": "hatte unterschrieben",
+            "wir": "hatten unterschrieben",
+            "ihr": "hattet unterschrieben",
+            "sie/Sie": "hatten unterschrieben"
+          },
+          "Konjunktiv II": {
+            "ich": "würde unterschreiben",
+            "du": "würdest unterschreiben",
+            "er/sie/es": "würde unterschreiben",
+            "wir": "würden unterschreiben",
+            "ihr": "würdet unterschreiben",
+            "sie/Sie": "würden unterschreiben"
+          },
+          "Passiv": {
+            "ich": "werde unterschrieben",
+            "du": "wirst unterschrieben",
+            "er/sie/es": "wird unterschrieben",
+            "wir": "werden unterschrieben",
+            "ihr": "werdet unterschrieben",
+            "sie/Sie": "werden unterschrieben"
+          },
+          "Konjunktiv I": {
+            "ich": "unterschreibe",
+            "du": "unterschreibest",
+            "er/sie/es": "unterschreibe",
+            "wir": "unterschreiben",
+            "ihr": "unterschreibet",
+            "sie/Sie": "unterschreiben"
+          },
+          "Futur II": {
+            "ich": "werde unterschrieben haben",
+            "du": "wirst unterschrieben haben",
+            "er/sie/es": "wird unterschrieben haben",
+            "wir": "werden unterschrieben haben",
+            "ihr": "werdet unterschrieben haben",
+            "sie/Sie": "werden unterschrieben haben"
+          },
+          "Imperativ": {
+            "du": "unterschreibe",
+            "wir": "unterschreiben wir",
+            "ihr": "unterschreibt",
+            "Sie": "unterschreiben Sie"
+          }
+        }
+      },
+      "überweisen": {
+        "translation": "to transfer (money)",
+        "preposition": "auf + Akk.",
+        "partizip1": "überweisend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "überweise",
+            "du": "überweist",
+            "er/sie/es": "überweist",
+            "wir": "überweisen",
+            "ihr": "überweist",
+            "sie/Sie": "überweisen"
+          },
+          "Perfekt": {
+            "ich": "habe überwiesen",
+            "du": "hast überwiesen",
+            "er/sie/es": "hat überwiesen",
+            "wir": "haben überwiesen",
+            "ihr": "habt überwiesen",
+            "sie/Sie": "haben überwiesen"
+          },
+          "Präteritum": {
+            "ich": "überwies",
+            "du": "überwiesest",
+            "er/sie/es": "überwies",
+            "wir": "überwiesen",
+            "ihr": "überwieset",
+            "sie/Sie": "überwiesen"
+          },
+          "Futur I": {
+            "ich": "werde überweisen",
+            "du": "wirst überweisen",
+            "er/sie/es": "wird überweisen",
+            "wir": "werden überweisen",
+            "ihr": "werdet überweisen",
+            "sie/Sie": "werden überweisen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte überwiesen",
+            "du": "hattest überwiesen",
+            "er/sie/es": "hatte überwiesen",
+            "wir": "hatten überwiesen",
+            "ihr": "hattet überwiesen",
+            "sie/Sie": "hatten überwiesen"
+          },
+          "Konjunktiv II": {
+            "ich": "würde überweisen",
+            "du": "würdest überweisen",
+            "er/sie/es": "würde überweisen",
+            "wir": "würden überweisen",
+            "ihr": "würdet überweisen",
+            "sie/Sie": "würden überweisen"
+          },
+          "Passiv": {
+            "ich": "werde überwiesen",
+            "du": "wirst überwiesen",
+            "er/sie/es": "wird überwiesen",
+            "wir": "werden überwiesen",
+            "ihr": "werdet überwiesen",
+            "sie/Sie": "werden überwiesen"
+          },
+          "Konjunktiv I": {
+            "ich": "überweise",
+            "du": "überweisest",
+            "er/sie/es": "überweise",
+            "wir": "überweisen",
+            "ihr": "überweiset",
+            "sie/Sie": "überweisen"
+          },
+          "Futur II": {
+            "ich": "werde überwiesen haben",
+            "du": "wirst überwiesen haben",
+            "er/sie/es": "wird überwiesen haben",
+            "wir": "werden überwiesen haben",
+            "ihr": "werdet überwiesen haben",
+            "sie/Sie": "werden überwiesen haben"
+          },
+          "Imperativ": {
+            "du": "überweise",
+            "wir": "überweisen wir",
+            "ihr": "überweist",
+            "Sie": "überweisen Sie"
+          }
+        }
+      },
+      "übernachten": {
+        "translation": "to spend the night / to stay overnight",
+        "preposition": "bei + Dat.",
+        "partizip1": "übernachtend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "übernachte",
+            "du": "übernachtest",
+            "er/sie/es": "übernachtet",
+            "wir": "übernachten",
+            "ihr": "übernachtet",
+            "sie/Sie": "übernachten"
+          },
+          "Perfekt": {
+            "ich": "habe übernachtet",
+            "du": "hast übernachtet",
+            "er/sie/es": "hat übernachtet",
+            "wir": "haben übernachtet",
+            "ihr": "habt übernachtet",
+            "sie/Sie": "haben übernachtet"
+          },
+          "Präteritum": {
+            "ich": "übernachtete",
+            "du": "übernachtetest",
+            "er/sie/es": "übernachtete",
+            "wir": "übernachteten",
+            "ihr": "übernachtetet",
+            "sie/Sie": "übernachteten"
+          },
+          "Futur I": {
+            "ich": "werde übernachten",
+            "du": "wirst übernachten",
+            "er/sie/es": "wird übernachten",
+            "wir": "werden übernachten",
+            "ihr": "werdet übernachten",
+            "sie/Sie": "werden übernachten"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte übernachtet",
+            "du": "hattest übernachtet",
+            "er/sie/es": "hatte übernachtet",
+            "wir": "hatten übernachtet",
+            "ihr": "hattet übernachtet",
+            "sie/Sie": "hatten übernachtet"
+          },
+          "Konjunktiv II": {
+            "ich": "würde übernachten",
+            "du": "würdest übernachten",
+            "er/sie/es": "würde übernachten",
+            "wir": "würden übernachten",
+            "ihr": "würdet übernachten",
+            "sie/Sie": "würden übernachten"
+          },
+          "Passiv": {
+            "ich": "werde übernachtet",
+            "du": "wirst übernachtet",
+            "er/sie/es": "wird übernachtet",
+            "wir": "werden übernachtet",
+            "ihr": "werdet übernachtet",
+            "sie/Sie": "werden übernachtet"
+          },
+          "Konjunktiv I": {
+            "ich": "übernachte",
+            "du": "übernachtest",
+            "er/sie/es": "übernachte",
+            "wir": "übernachten",
+            "ihr": "übernachtet",
+            "sie/Sie": "übernachten"
+          },
+          "Futur II": {
+            "ich": "werde übernachtet haben",
+            "du": "wirst übernachtet haben",
+            "er/sie/es": "wird übernachtet haben",
+            "wir": "werden übernachtet haben",
+            "ihr": "werdet übernachtet haben",
+            "sie/Sie": "werden übernachtet haben"
+          },
+          "Imperativ": {
+            "du": "übernachte",
+            "wir": "übernachten wir",
+            "ihr": "übernachtet",
+            "Sie": "übernachten Sie"
+          }
+        }
+      },
+      "telefonieren": {
+        "translation": "to talk on the phone / to call (by phone)",
+        "preposition": "mit + Dat. (when specifying with who)",
+        "partizip1": "telefonierend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "telefoniere",
+            "du": "telefonierst",
+            "er/sie/es": "telefoniert",
+            "wir": "telefonieren",
+            "ihr": "telefoniert",
+            "sie/Sie": "telefonieren"
+          },
+          "Perfekt": {
+            "ich": "habe telefoniert",
+            "du": "hast telefoniert",
+            "er/sie/es": "hat telefoniert",
+            "wir": "haben telefoniert",
+            "ihr": "habt telefoniert",
+            "sie/Sie": "haben telefoniert"
+          },
+          "Präteritum": {
+            "ich": "telefonierte",
+            "du": "telefoniertest",
+            "er/sie/es": "telefonierte",
+            "wir": "telefonierten",
+            "ihr": "telefoniertet",
+            "sie/Sie": "telefonierten"
+          },
+          "Futur I": {
+            "ich": "werde telefonieren",
+            "du": "wirst telefonieren",
+            "er/sie/es": "wird telefonieren",
+            "wir": "werden telefonieren",
+            "ihr": "werdet telefonieren",
+            "sie/Sie": "werden telefonieren"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte telefoniert",
+            "du": "hattest telefoniert",
+            "er/sie/es": "hatte telefoniert",
+            "wir": "hatten telefoniert",
+            "ihr": "hattet telefoniert",
+            "sie/Sie": "hatten telefoniert"
+          },
+          "Konjunktiv II": {
+            "ich": "würde telefonieren",
+            "du": "würdest telefonieren",
+            "er/sie/es": "würde telefonieren",
+            "wir": "würden telefonieren",
+            "ihr": "würdet telefonieren",
+            "sie/Sie": "würden telefonieren"
+          },
+          "Passiv": {
+            "ich": "werde telefoniert",
+            "du": "wirst telefoniert",
+            "er/sie/es": "wird telefoniert",
+            "wir": "werden telefoniert",
+            "ihr": "werdet telefoniert",
+            "sie/Sie": "werden telefoniert"
+          },
+          "Konjunktiv I": {
+            "ich": "telefoniere",
+            "du": "telefonierest",
+            "er/sie/es": "telefoniere",
+            "wir": "telefonieren",
+            "ihr": "telefonieret",
+            "sie/Sie": "telefonieren"
+          },
+          "Futur II": {
+            "ich": "werde telefoniert haben",
+            "du": "wirst telefoniert haben",
+            "er/sie/es": "wird telefoniert haben",
+            "wir": "werden telefoniert haben",
+            "ihr": "werdet telefoniert haben",
+            "sie/Sie": "werden telefoniert haben"
+          },
+          "Imperativ": {
+            "du": "telefoniere",
+            "wir": "telefonieren wir",
+            "ihr": "telefoniert",
+            "Sie": "telefonieren Sie"
+          }
+        }
+      },
+      "tanzen": {
+        "translation": "to dance",
+        "preposition": null,
+        "partizip1": "tanzend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "tanze",
+            "du": "tanzt",
+            "er/sie/es": "tanzt",
+            "wir": "tanzen",
+            "ihr": "tanzt",
+            "sie/Sie": "tanzen"
+          },
+          "Perfekt": {
+            "ich": "habe getanzt",
+            "du": "hast getanzt",
+            "er/sie/es": "hat getanzt",
+            "wir": "haben getanzt",
+            "ihr": "habt getanzt",
+            "sie/Sie": "haben getanzt"
+          },
+          "Präteritum": {
+            "ich": "tanzte",
+            "du": "tanztest",
+            "er/sie/es": "tanzte",
+            "wir": "tanzten",
+            "ihr": "tanztet",
+            "sie/Sie": "tanzten"
+          },
+          "Futur I": {
+            "ich": "werde tanzen",
+            "du": "wirst tanzen",
+            "er/sie/es": "wird tanzen",
+            "wir": "werden tanzen",
+            "ihr": "werdet tanzen",
+            "sie/Sie": "werden tanzen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte getanzt",
+            "du": "hattest getanzt",
+            "er/sie/es": "hatte getanzt",
+            "wir": "hatten getanzt",
+            "ihr": "hattet getanzt",
+            "sie/Sie": "hatten getanzt"
+          },
+          "Konjunktiv II": {
+            "ich": "würde tanzen",
+            "du": "würdest tanzen",
+            "er/sie/es": "würde tanzen",
+            "wir": "würden tanzen",
+            "ihr": "würdet tanzen",
+            "sie/Sie": "würden tanzen"
+          },
+          "Passiv": {
+            "ich": "werde getanzt",
+            "du": "wirst getanzt",
+            "er/sie/es": "wird getanzt",
+            "wir": "werden getanzt",
+            "ihr": "werdet getanzt",
+            "sie/Sie": "werden getanzt"
+          },
+          "Konjunktiv I": {
+            "ich": "tanze",
+            "du": "tanzest",
+            "er/sie/es": "tanze",
+            "wir": "tanzen",
+            "ihr": "tanzet",
+            "sie/Sie": "tanzen"
+          },
+          "Futur II": {
+            "ich": "werde getanzt haben",
+            "du": "wirst getanzt haben",
+            "er/sie/es": "wird getanzt haben",
+            "wir": "werden getanzt haben",
+            "ihr": "werdet getanzt haben",
+            "sie/Sie": "werden getanzt haben"
+          },
+          "Imperativ": {
+            "du": "tanze",
+            "wir": "tanzen wir",
+            "ihr": "tanzt",
+            "Sie": "tanzen Sie"
+          }
+        }
+      },
+      "suchen": {
+        "translation": "to search / to look for",
+        "preposition": "nach + Dat. (only when it is figurative)",
+        "partizip1": "suchend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "suche",
+            "du": "suchst",
+            "er/sie/es": "sucht",
+            "wir": "suchen",
+            "ihr": "sucht",
+            "sie/Sie": "suchen"
+          },
+          "Perfekt": {
+            "ich": "habe gesucht",
+            "du": "hast gesucht",
+            "er/sie/es": "hat gesucht",
+            "wir": "haben gesucht",
+            "ihr": "habt gesucht",
+            "sie/Sie": "haben gesucht"
+          },
+          "Präteritum": {
+            "ich": "suchte",
+            "du": "suchtest",
+            "er/sie/es": "suchte",
+            "wir": "suchten",
+            "ihr": "suchtet",
+            "sie/Sie": "suchten"
+          },
+          "Futur I": {
+            "ich": "werde suchen",
+            "du": "wirst suchen",
+            "er/sie/es": "wird suchen",
+            "wir": "werden suchen",
+            "ihr": "werdet suchen",
+            "sie/Sie": "werden suchen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte gesucht",
+            "du": "hattest gesucht",
+            "er/sie/es": "hatte gesucht",
+            "wir": "hatten gesucht",
+            "ihr": "hattet gesucht",
+            "sie/Sie": "hatten gesucht"
+          },
+          "Konjunktiv II": {
+            "ich": "würde suchen",
+            "du": "würdest suchen",
+            "er/sie/es": "würde suchen",
+            "wir": "würden suchen",
+            "ihr": "würdet suchen",
+            "sie/Sie": "würden suchen"
+          },
+          "Passiv": {
+            "ich": "werde gesucht",
+            "du": "wirst gesucht",
+            "er/sie/es": "wird gesucht",
+            "wir": "werden gesucht",
+            "ihr": "werdet gesucht",
+            "sie/Sie": "werden gesucht"
+          },
+          "Konjunktiv I": {
+            "ich": "suche",
+            "du": "suchest",
+            "er/sie/es": "suche",
+            "wir": "suchen",
+            "ihr": "suchet",
+            "sie/Sie": "suchen"
+          },
+          "Futur II": {
+            "ich": "werde gesucht haben",
+            "du": "wirst gesucht haben",
+            "er/sie/es": "wird gesucht haben",
+            "wir": "werden gesucht haben",
+            "ihr": "werdet gesucht haben",
+            "sie/Sie": "werden gesucht haben"
+          },
+          "Imperativ": {
+            "du": "suche",
+            "wir": "suchen wir",
+            "ihr": "sucht",
+            "Sie": "suchen Sie"
+          }
+        }
+      },
+      "studieren": {
+        "translation": "to study (at university)",
+        "preposition": null,
+        "partizip1": "studierend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "studiere",
+            "du": "studierst",
+            "er/sie/es": "studiert",
+            "wir": "studieren",
+            "ihr": "studiert",
+            "sie/Sie": "studieren"
+          },
+          "Perfekt": {
+            "ich": "habe studiert",
+            "du": "hast studiert",
+            "er/sie/es": "hat studiert",
+            "wir": "haben studiert",
+            "ihr": "habt studiert",
+            "sie/Sie": "haben studiert"
+          },
+          "Präteritum": {
+            "ich": "studierte",
+            "du": "studiertest",
+            "er/sie/es": "studierte",
+            "wir": "studierten",
+            "ihr": "studiertet",
+            "sie/Sie": "studierten"
+          },
+          "Futur I": {
+            "ich": "werde studieren",
+            "du": "wirst studieren",
+            "er/sie/es": "wird studieren",
+            "wir": "werden studieren",
+            "ihr": "werdet studieren",
+            "sie/Sie": "werden studieren"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte studiert",
+            "du": "hattest studiert",
+            "er/sie/es": "hatte studiert",
+            "wir": "hatten studiert",
+            "ihr": "hattet studiert",
+            "sie/Sie": "hatten studiert"
+          },
+          "Konjunktiv II": {
+            "ich": "würde studieren",
+            "du": "würdest studieren",
+            "er/sie/es": "würde studieren",
+            "wir": "würden studieren",
+            "ihr": "würdet studieren",
+            "sie/Sie": "würden studieren"
+          },
+          "Passiv": {
+            "ich": "werde studiert",
+            "du": "wirst studiert",
+            "er/sie/es": "wird studiert",
+            "wir": "werden studiert",
+            "ihr": "werdet studiert",
+            "sie/Sie": "werden studiert"
+          },
+          "Konjunktiv I": {
+            "ich": "studiere",
+            "du": "studierest",
+            "er/sie/es": "studiere",
+            "wir": "studieren",
+            "ihr": "studieret",
+            "sie/Sie": "studieren"
+          },
+          "Futur II": {
+            "ich": "werde studiert haben",
+            "du": "wirst studiert haben",
+            "er/sie/es": "wird studiert haben",
+            "wir": "werden studiert haben",
+            "ihr": "werdet studiert haben",
+            "sie/Sie": "werden studiert haben"
+          },
+          "Imperativ": {
+            "du": "studiere",
+            "wir": "studieren wir",
+            "ihr": "studiert",
+            "Sie": "studieren Sie"
+          }
+        }
+      },
+      "stellen": {
+        "translation": "to place / to put upright",
+        "preposition": "auf + Akk.",
+        "partizip1": "stellend",
+        "auxiliary": "haben",
+        "tenses": {
+          "Präsens": {
+            "ich": "stelle",
+            "du": "stellst",
+            "er/sie/es": "stellt",
+            "wir": "stellen",
+            "ihr": "stellt",
+            "sie/Sie": "stellen"
+          },
+          "Perfekt": {
+            "ich": "habe gestellt",
+            "du": "hast gestellt",
+            "er/sie/es": "hat gestellt",
+            "wir": "haben gestellt",
+            "ihr": "habt gestellt",
+            "sie/Sie": "haben gestellt"
+          },
+          "Präteritum": {
+            "ich": "stellte",
+            "du": "stelltest",
+            "er/sie/es": "stellte",
+            "wir": "stellten",
+            "ihr": "stelltet",
+            "sie/Sie": "stellten"
+          },
+          "Futur I": {
+            "ich": "werde stellen",
+            "du": "wirst stellen",
+            "er/sie/es": "wird stellen",
+            "wir": "werden stellen",
+            "ihr": "werdet stellen",
+            "sie/Sie": "werden stellen"
+          },
+          "Plusquamperfekt": {
+            "ich": "hatte gestellt",
+            "du": "hattest gestellt",
+            "er/sie/es": "hatte gestellt",
+            "wir": "hatten gestellt",
+            "ihr": "hattet gestellt",
+            "sie/Sie": "hatten gestellt"
+          },
+          "Konjunktiv II": {
+            "ich": "würde stellen",
+            "du": "würdest stellen",
+            "er/sie/es": "würde stellen",
+            "wir": "würden stellen",
+            "ihr": "würdet stellen",
+            "sie/Sie": "würden stellen"
+          },
+          "Passiv": {
+            "ich": "werde gestellt",
+            "du": "wirst gestellt",
+            "er/sie/es": "wird gestellt",
+            "wir": "werden gestellt",
+            "ihr": "werdet gestellt",
+            "sie/Sie": "werden gestellt"
+          },
+          "Konjunktiv I": {
+            "ich": "stelle",
+            "du": "stellest",
+            "er/sie/es": "stelle",
+            "wir": "stellen",
+            "ihr": "stellet",
+            "sie/Sie": "stellen"
+          },
+          "Futur II": {
+            "ich": "werde gestellt haben",
+            "du": "wirst gestellt haben",
+            "er/sie/es": "wird gestellt haben",
+            "wir": "werden gestellt haben",
+            "ihr": "werdet gestellt haben",
+            "sie/Sie": "werden gestellt haben"
+          },
+          "Imperativ": {
+            "du": "stelle",
+            "wir": "stellen wir",
+            "ihr": "stellt",
+            "Sie": "stellen Sie"
+          }
+        }
+      },
       "spielen": {
         "translation": "to play",
         "preposition": null,
         "partizip1": "spielend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "spiele",
@@ -90,6 +1381,7 @@
         "translation": "to taste",
         "preposition": "nach + Dat.",
         "partizip1": "schmeckend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "schmecke",
@@ -175,6 +1467,7 @@
         "translation": "to close / to shut",
         "preposition": null,
         "partizip1": "schließend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "schließe",
@@ -260,6 +1553,7 @@
         "translation": "to say / to tell",
         "preposition": null,
         "partizip1": "sagend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "sage",
@@ -345,6 +1639,7 @@
         "translation": "to travel",
         "preposition": null,
         "partizip1": "reisend",
+        "auxiliary": "sein",
         "tenses": {
           "Präsens": {
             "ich": "reise",
@@ -430,6 +1725,7 @@
         "translation": "to rain",
         "preposition": null,
         "partizip1": "regnend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": null,
@@ -515,6 +1811,7 @@
         "translation": "to talk / to speak",
         "preposition": "über + Akk.",
         "partizip1": "redend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "rede",
@@ -600,6 +1897,7 @@
         "translation": "to calculate / to count on",
         "preposition": "mit + Dat.",
         "partizip1": "rechnend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "rechne",
@@ -685,6 +1983,7 @@
         "translation": "to smoke",
         "preposition": null,
         "partizip1": "rauchend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "rauche",
@@ -770,6 +2069,7 @@
         "translation": "to clean",
         "preposition": null,
         "partizip1": "putzend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "putze",
@@ -855,6 +2155,7 @@
         "translation": "to happen",
         "preposition": null,
         "partizip1": "passierend",
+        "auxiliary": "sein",
         "tenses": {
           "Präsens": {
             "ich": "passiere",
@@ -940,6 +2241,7 @@
         "translation": "to open",
         "preposition": null,
         "partizip1": "öffnend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "öffne",
@@ -1025,6 +2327,7 @@
         "translation": "to mean / to think / to have an opinion",
         "preposition": null,
         "partizip1": "meinend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "meine",
@@ -1110,6 +2413,7 @@
         "translation": "to love",
         "preposition": null,
         "partizip1": "liebend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "liebe",
@@ -1195,6 +2499,7 @@
         "translation": "to lay / to put down",
         "preposition": "auf + Akk.",
         "partizip1": "legend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "lege",
@@ -1280,6 +2585,7 @@
         "translation": "to live",
         "preposition": null,
         "partizip1": "lebend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "lebe",
@@ -1365,6 +2671,7 @@
         "translation": "to laugh",
         "preposition": "über + Akk.",
         "partizip1": "lachend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "lache",
@@ -1450,6 +2757,7 @@
         "translation": "to get / to receive",
         "preposition": null,
         "partizip1": "kriegend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "kriege",
@@ -1535,6 +2843,7 @@
         "translation": "to cook",
         "preposition": null,
         "partizip1": "kochend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "koche",
@@ -1620,6 +2929,7 @@
         "translation": "to buy",
         "preposition": null,
         "partizip1": "kaufend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "kaufe",
@@ -1705,6 +3015,7 @@
         "translation": "to hear / to listen",
         "preposition": null,
         "partizip1": "hörend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "höre",
@@ -1790,6 +3101,7 @@
         "translation": "to fetch / to get",
         "preposition": null,
         "partizip1": "holend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "hole",
@@ -1875,6 +3187,7 @@
         "translation": "to grill / to barbecue",
         "preposition": null,
         "partizip1": "grillend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "grille",
@@ -1960,6 +3273,7 @@
         "translation": "to congratulate",
         "preposition": "zu + Dat.",
         "partizip1": "gratulierend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "gratuliere",
@@ -2045,6 +3359,7 @@
         "translation": "to have breakfast",
         "preposition": null,
         "partizip1": "frühstückend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "frühstücke",
@@ -2130,6 +3445,7 @@
         "translation": "to ask",
         "preposition": "nach + Dat.",
         "partizip1": "fragend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "frage",
@@ -2215,6 +3531,7 @@
         "translation": "to allow / to permit",
         "preposition": null,
         "partizip1": "erlaubend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "erlaube",
@@ -2300,6 +3617,7 @@
         "translation": "to explain",
         "preposition": null,
         "partizip1": "erklärend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "erkläre",
@@ -2385,6 +3703,7 @@
         "translation": "to last / to take (time)",
         "preposition": null,
         "partizip1": "dauernd",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "dauere",
@@ -2470,6 +3789,7 @@
         "translation": "to thank",
         "preposition": "für + Akk.",
         "partizip1": "dankend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "danke",
@@ -2555,6 +3875,7 @@
         "translation": "to do / to make",
         "preposition": null,
         "partizip1": "machend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "mache",
@@ -2640,6 +3961,7 @@
         "translation": "to spell",
         "preposition": null,
         "partizip1": "buchstabierend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "buchstabiere",
@@ -2725,6 +4047,7 @@
         "translation": "to pay",
         "preposition": null,
         "partizip1": "bezahlend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "bezahle",
@@ -2810,6 +4133,7 @@
         "translation": "to visit (a person/a place)",
         "preposition": null,
         "partizip1": "besuchend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "besuche",
@@ -2895,6 +4219,7 @@
         "translation": "to order",
         "preposition": null,
         "partizip1": "bestellend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "bestelle",
@@ -2980,6 +4305,7 @@
         "translation": "to visit (a place)",
         "preposition": null,
         "partizip1": "besichtigend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "besichtige",
@@ -3065,6 +4391,7 @@
         "translation": "to use",
         "preposition": null,
         "partizip1": "benutzend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "benutze",
@@ -3149,6 +4476,7 @@
         "translation": "to tell / to narrate",
         "preposition": ["von + Dat.", "über + Akk."],
         "partizip1": "erzählend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "erzähle",
@@ -3234,6 +4562,7 @@
         "translation": "to believe",
         "preposition": "an + Akk.",
         "partizip1": "glaubend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "glaube",
@@ -3319,6 +4648,7 @@
         "translation": "to wait",
         "preposition": "auf + Akk.",
         "partizip1": "wartend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "warte",
@@ -3404,6 +4734,7 @@
         "translation": "to mean",
         "preposition": null,
         "partizip1": "bedeutend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "bedeute",
@@ -3489,6 +4820,7 @@
         "translation": "to work",
         "preposition": null,
         "partizip1": "arbeitend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "arbeite",
@@ -3574,6 +4906,7 @@
         "translation": "to bathe",
         "preposition": null,
         "partizip1": "badend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "bade",
@@ -3659,6 +4992,7 @@
         "translation": "to learn",
         "preposition": null,
         "partizip1": "lernend",
+        "auxiliary": "haben",
         "tenses": {
           "Präsens": {
             "ich": "lerne",

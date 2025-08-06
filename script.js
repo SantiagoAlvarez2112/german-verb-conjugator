@@ -75,7 +75,7 @@ function showVerbList(verbs) {
     <h2>${currentLevel} > ${currentType} Verbs</h2>
     <button onclick="showTenses('${currentType}')">🎲 Practice Random Verb</button>
     <table border="1" style="margin: 20px auto;">
-      <tr><th>Verb</th><th>Translation</th><th>Preposition</th><th>Partizip I</th><th>Practice</th></tr>
+      <tr><th>Verb</th><th>Translation</th><th>Preposition</th><th>Partizip 1</th><th>Auxiliary</th><th>Practice</th></tr>
       ${verbKeys.map(v => {
         const tenses = Object.keys(verbs[v].tenses);
         return `
@@ -84,6 +84,7 @@ function showVerbList(verbs) {
           <td>${verbs[v].translation}</td>
           <td>${verbs[v].preposition || '-'}</td>
           <td>${verbs[v].partizip1 || '-'}</td>
+          <td>${verbs[v].auxiliary || '-'}</td>
           <td>
             <select onchange="practiceSingleVerb('${v}', this.value)">
               <option value="">Choose Tense</option>
@@ -140,6 +141,7 @@ container.innerHTML = `
   <h2>${level} > ${type} > ${tense}</h2>
   <p><strong>Verb:</strong> ${selectedVerb}</p>
   <p><strong>Meaning:</strong> ${verbData.translation}</p>
+  ${verbData.auxiliary ? `<p><strong>Auxiliary:</strong> ${verbData.auxiliary}</p>` : ""}
   ${verbData.preposition ? `<p><strong>⚠️ Preposition:</strong> ${verbData.preposition}</p>` : ""}
   ${verbData.partizip1 ? `<p><strong>🟡 Partizip 1:</strong> ${verbData.partizip1}</p>` : ""}
   <div id="inputsContainer"></div>
@@ -204,3 +206,26 @@ function closeModal() {
   document.getElementById("customModal").style.display = "none";
   startGame(currentLevel, currentType, currentTense);
 }
+
+// === TOGGLE THEME ===
+function toggleTheme() {
+  const body = document.body;
+  const toggle = document.getElementById("themeToggle");
+
+  if (toggle.checked) {
+    body.classList.remove("light");
+    body.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+  } else {
+    body.classList.remove("dark");
+    body.classList.add("light");
+    localStorage.setItem("theme", "light");
+  }
+}
+
+// === LOAD SAVED THEME ON STARTUP ===
+window.onload = () => {
+  const savedTheme = localStorage.getItem("theme") || "light";
+  document.body.classList.add(savedTheme);
+  document.getElementById("themeToggle").checked = savedTheme === "dark";
+};
